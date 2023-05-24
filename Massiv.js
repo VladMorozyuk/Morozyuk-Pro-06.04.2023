@@ -1,14 +1,14 @@
 
-let length = prompt("Введіть довжину масиву:");
+// let length = prompt("Введіть довжину масиву:");
 
-let arr = [];
+// let arr = [];
 
-for (let i = 0; i < length; i++) {
-    arr.push(prompt(`Введіть елемент масиву ${i}:`));
-}
+// for (let i = 0; i < length; i++) {
+//     arr.push(prompt(`Введіть елемент масиву ${i}:`));
+// }
 
-arr.sort();
+// arr.sort();
 
-arr.splice(1, 3);
+// arr.splice(1, 3);
 
-document.write(`Масив після видалення елементів з 2 по 4 ${arr}`);
+// document.write(`Масив після видалення елементів з 2 по 4 ${arr}`);
