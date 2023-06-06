@@ -13,9 +13,20 @@
     <!-- <input type="text" id="myInput">
     <div id="infoDiv"></div> -->
 
-    <input type="text" id="urlInput" placeholder="Введіть URL">
-    <button onclick="redirect()">Перейти</button>
-    <!--  -->
+    <!-- <input type="text" id="urlInput" placeholder="Введіть URL">
+    <button onclick="redirect()">Перейти</button> -->
+
+    <div id="votingResults"></div>
+
+    <div id="options">
+        <button onclick="vote(0)">😄</button>
+        <button onclick="vote(1)">😊</button>
+        <button onclick="vote(2)">😐</button>
+        <button onclick="vote(3)">😕</button>
+        <button onclick="vote(4)">😢</button>
+    </div>
+
+    <script src="your-script.js"></script>
 
     <script src="HoursInSeconds.js"></script>
     <script src="ValueAverage.js"></script>
@@ -34,6 +45,7 @@
     <script src="div.js"></script>
     <script src="table.js"></script>
     <script src="link.js"></script>
+    <script src="voting.js"></script>
 </body>
 
 </html>
