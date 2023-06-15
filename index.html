@@ -16,7 +16,7 @@
     <!-- <input type="text" id="urlInput" placeholder="Введіть URL">
     <button onclick="redirect()">Перейти</button> -->
 
-    <div id="votingResults"></div>
+    <!-- <div id="votingResults"></div>
 
     <div id="options">
         <button onclick="vote(0)">😄</button>
@@ -24,7 +24,17 @@
         <button onclick="vote(2)">😐</button>
         <button onclick="vote(3)">😕</button>
         <button onclick="vote(4)">😢</button>
-    </div>
+    </div> -->
+
+    <label for="postId">Введіть ідентифікатор поста (1-100):</label>
+    <input type="text" id="postId">
+    <button onclick="fetchPostById()">Знайти пост</button>
+
+    <div id="postContainer"></div>
+    <div id="commentsContainer"></div>
+
+    <script src="your-script.js"></script>
+
 
     <script src="your-script.js"></script>
 
@@ -46,6 +56,7 @@
     <script src="table.js"></script>
     <script src="link.js"></script>
     <script src="voting.js"></script>
+    <script src="promise.js"></script>
 </body>
 
 </html>
