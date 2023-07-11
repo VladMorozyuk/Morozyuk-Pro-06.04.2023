@@ -33,6 +33,41 @@
     <div id="postContainer"></div>
     <div id="commentsContainer"></div> -->
 
+    <h2>Форма реєстрації</h2>
+    <form id="registrationForm">
+        <label for="firstName">Ім'я:</label>
+        <input type="text" id="firstName" required><br><br>
+        <label for="lastName">Прізвище:</label>
+        <input type="text" id="lastName" required><br><br>
+        <label for="birthdate">Дата народження:</label>
+        <input type="text" id="birthdate" required><br><br>
+        <label>Стать:</label><br>
+        <input type="radio" id="male" name="gender" value="Чоловіча" required>
+        <label for="male">Чоловіча</label><br>
+        <input type="radio" id="female" name="gender" value="Жіноча" required>
+        <label for="female">Жіноча</label><br><br>
+        <label for="city">Місто:</label>
+        <select id="city" required>
+            <option value="">Оберіть місто</option>
+            <option value="Київ">Київ</option>
+            <option value="Львів">Львів</option>
+            <option value="Харків">Харків</option>
+        </select><br><br>
+        <label for="address">Адреса:</label><br>
+        <textarea id="address" rows="4" cols="30" required></textarea><br><br>
+        <label>Мови, якими володієте:</label><br>
+        <input type="checkbox" id="lang1" name="languages" value="Українська">
+        <label for="lang1">Українська</label><br>
+        <input type="checkbox" id="lang2" name="languages" value="Англійська">
+        <label for="lang2">Англійська</label><br>
+        <input type="checkbox" id="lang3" name="languages" value="Іспанська">
+        <label for="lang3">Іспанська</label><br>
+        <br>
+        <input type="button" value="Зберегти" onclick="displayTable()">
+    </form>
+
+    <div id="tableContainer"></div>
+
     <script src="your-script.js"></script>
 
 
@@ -58,6 +93,7 @@
     <script src="voting.js"></script>
     <script src="promise.js"></script>
     <script src="AJAX.js"></script>
+    <script src="FormRegister.js"></script>
 </body>
 
 </html>
